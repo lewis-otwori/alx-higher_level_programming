@@ -8,8 +8,8 @@ def fizzbuzz():
         if (i % 3 == 0 and i % 5 == 0):
             print("%s%s" % (str1, str2), end=' ')
         elif (i % 3 == 0):
-             print("%s" % (str1), end=' ')
+            print("%s" % (str1), end=' ')
         elif (i % 5 == 0):
-             print("%s" % (str2), end=' ')
+            print("%s" % (str2), end=' ')
         else:
-             print("%d" % (i), end=' ')
+            print("%d" % (i), end=' ')
